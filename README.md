@@ -1,3 +1,1 @@
----
-permalink: /about.html
----
+My blog!
