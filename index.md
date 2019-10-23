@@ -4,8 +4,9 @@ title: About
 permalink: /index.html
 ---
 
-Some information about you!
+I'm an undergraduate CS student. View my projects page to see what I've been working on!
 
+<!---
 ### More Information
 
 A place to include any other types of information that you'd like to include about yourself.
@@ -13,3 +14,5 @@ A place to include any other types of information that you'd like to include abo
 ### Contact me
 
 [email@domain.com](mailto:email@domain.com)
+
+--->
