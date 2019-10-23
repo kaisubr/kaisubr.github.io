@@ -199,7 +199,8 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+//   font-family: $helveticaNeue;
+  font-family: "Fira Sans", $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -240,6 +241,26 @@ nav {
       color: $blue;
     }
   }
+}
+
+nav a {
+    /* margin-left: 10px; */
+    color: #333;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+    /* margin-right: 10px; */
+    padding: 10px 10px 10px 10px;
+    background: #eef7fd;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background: #5c85a2;
+    color: white;
+    /* border-radius: 2px; */
+    padding: 12px 10px 12px 10px;
+    /* box-shadow: 0px 0 4px 0px #00000040; */
 }
 
 //
@@ -285,7 +306,12 @@ nav {
 
 footer {
   padding: 20px 0;
-  text-align: center;
+  //text-align:center;
+  text-align: right;
+}
+
+* {
+  transition: all .2s ease-in-out;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
