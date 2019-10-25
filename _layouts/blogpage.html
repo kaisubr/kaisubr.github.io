@@ -4,14 +4,12 @@ layout: default
 
 <article class="page">
   <div class="entry">
-  	<h1>Recent</h1>
-  	{% for blogpost in site.blog %}
-  		
-		  <h2>
-		    <a href="{{ blogpost.url }}"> {{ blogpost.title }} </a>
-		  	<span class="site-description"> {{ blogpost.date | date: "%B %e, %Y" }}</span>
-		  </h2>
-		
+	<h1>Recent</h1>
+  	{% for blogpost in site.blog %}	
+		<h2>
+			<a href="{{ blogpost.url }}"> {{ blogpost.title }} </a>
+			<span class="site-description"> {{ blogpost.date | date: "%B %e, %Y" }}</span>
+		</h2>
 	{% endfor %}
   </div>
 </article>
