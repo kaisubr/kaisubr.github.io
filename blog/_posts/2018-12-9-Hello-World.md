@@ -11,5 +11,7 @@ This is my blog, and I'm not sure what I'll use it for just yet. Hang tight!
 MathJax rendering examples:
 
 \\[ x = {-b + \sqrt{b^2-4ac} \over 2a} \\]
+
 or
-`$$x = {-b - \sqrt{b^2 - 4ac} \over 2a} $$`
+
+`$$ x = {-b - \sqrt{b^2 - 4ac} \over 2a} $$`
