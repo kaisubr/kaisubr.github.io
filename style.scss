@@ -73,8 +73,10 @@ p {
   font-family: "Merriweather", $helvetica;
 }
 
-.metadate {
+span.metadate {
 	font-size: smaller;
+	font-weight:normal;
+	margin:10px;
 }
 
 a {
