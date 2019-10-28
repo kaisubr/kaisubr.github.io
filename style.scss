@@ -73,6 +73,10 @@ p {
   font-family: "Merriweather", $helvetica;
 }
 
+p.metadate {
+	font-style: italic;
+}
+
 a {
   color: $blue;
   text-decoration: none;
