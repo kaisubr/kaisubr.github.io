@@ -1,3 +1,5 @@
+<!--- Posts moved to /blog/_posts. (where YAML header should have category:blog) --->
+
 ---
 layout: post
 title: Hello, world!
