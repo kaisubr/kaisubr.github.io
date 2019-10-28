@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: post
 category: blog
 title: Hello, world!
 date: December 9, 2018
