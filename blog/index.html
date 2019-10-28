@@ -5,10 +5,12 @@ permalink: /blog/
 category: blog
 published: true
 ---
+<h1> Recent posts </h1>
+
 {% for post in site.posts %}
   {% if post.categories contains 'blog' %}
 	<div class="post">
-		<h3 class="title"> <a href="{{ post.url }}" title="{{ post.title }}"> {{ post.title }} </a> </h3>
+		<h3 class="title posttitle"> <a href="{{ post.url }}" title="{{ post.title }}"> {{ post.title }} </a> </h3>
 		<p class="meta metadate">{{ post.date | date_to_long_string}}</p>
 		<div class="entry">
 			{{ post.content | strip_html | truncatewords: 200 }}
