@@ -16,7 +16,7 @@ published: true
 		</h3>
 		
 		<div class="entry">
-			{{ post.content | strip_html | truncatewords: 15 }}
+			{{ post.content | strip_html | strip_newlines | truncatewords: 15 }}
 		</div>
   	</div>
   {% endif %}
