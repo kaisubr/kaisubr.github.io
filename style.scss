@@ -45,6 +45,18 @@ body {
     animation: 10s gradientanim ease-in-out infinite;
 }
 
+@media screen and (min-width: 1300px) { /*desktop*/
+  .container {
+    margin: 0 auto;
+    padding: 0 0;
+    max-width:800px;
+  }
+
+  .container.headcont {
+    padding: 0 250px;
+  }
+}
+
 @keyframes gradientanim {
 	0% {
 		background-position: 0% 50%;
