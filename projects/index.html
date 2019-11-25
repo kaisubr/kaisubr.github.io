@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+category: proj
+published: true
+---
+<h1> Projects </h1>
+
+{% for post in site.posts %}
+  {% if post.categories contains 'proj' %}
+	<div class="post proj_card">
+		<h3 class="title posttitle"> 
+			<a href="{{ post.url }}" title="{{ post.title }}"> {{ post.title }} </a> 
+			<span class="meta metadate">{{ post.date | date_to_string: "ordinal", "US"}}</span>
+		</h3>
+		
+		<div class="entry proj_description">
+			{{ post.description }}
+		</div>
+  	</div>
+  {% endif %}
+{% endfor %}

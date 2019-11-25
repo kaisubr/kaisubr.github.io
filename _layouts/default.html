@@ -9,9 +9,14 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script type="tet/x-mathjax-config">
+    <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
-        showMathMenu: false
+        <!-- showMathMenu: false, -->
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+        
       });
     </script>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
@@ -33,6 +38,7 @@
           </div>
           
           <nav>
+            <a href="{{ site.baseurl }}/projects/">Projects</a>
             <a href="{{ site.baseurl }}/blog/">Blog</a>
             <a href="{{ site.baseurl }}/">About</a>
           </nav>
@@ -52,8 +58,10 @@
       </div>
     </div>
 
-<!--     {% include analytics.html %} --><script type="text/javascript" src="https://yihui.name/js/math-code.js"></script>
+<!--     {% include analytics.html %} -->
+<!-- <script type="text/javascript" src="https://yihui.name/js/math-code.js"></script> -->
     
+
   </body>
   
 </html>

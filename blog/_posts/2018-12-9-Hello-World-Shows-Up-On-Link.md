@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: Hello, world!
+title: Hello, world! The Original!
 ---
 
 This is my blog, and I'm not sure what I'll use it for just yet. Hang tight!

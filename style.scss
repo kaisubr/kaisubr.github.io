@@ -22,9 +22,9 @@ html {
 
 body {
 	background: $white;
-  font: 16.5px/1.4 $helvetica;
+  font: 16px/1.7 $helvetica;
   //color: $darkGray;
-  color: black;
+  color: #333;
 }
 
 .container {
@@ -69,6 +69,19 @@ body {
 	}
 }
 
+code {
+  font-family: 'Bitstream Vera Sans Mono','Consolas', monospace;
+  background: #f3f3f3;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 0 3px;
+  box-shadow: 0 0 0 1px #00000030;
+}
+
+.MathJax {
+  font-size:88%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Fira Sans", $helveticaNeue;
   color: $darkerGray;
@@ -83,27 +96,31 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+h1, h2 {
+  border-bottom: 1px solid #c7c7c7;
+}
+
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 17px;
   color: $gray;
 }
 
-p {
+p, li, ul {
   margin: 15px 0;
   font-family: "Merriweather", $helvetica;
 }
@@ -237,6 +254,7 @@ img {
 }
 
 .site-name {
+  border-bottom:none;
   margin: 0;
   color: $darkGray;
   cursor: pointer;
