@@ -7,8 +7,13 @@
 
 @import "reset";
 @import "variables";
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700);
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap);
+/* @import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i&display=swap"); */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap');
+
+// @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700);
+// @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i&display=swap');
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -21,77 +26,73 @@ html {
 }
 
 body {
-	background: $white;
-  font: 16px/1.7 $helvetica;
-  //color: $darkGray;
-  color: #333;
+  background: #f9f9f9;
+  font: 1rem/1.7 Helvetica, Arial, sans-serif;
+  color: #000000;
 }
 
 .container {
   margin: 0 auto;
-  // max-width: 840px;
-  // max-width: 1220px;
-  // padding: 0 10px;
-  padding: 0 10%;
+  padding: 0 5%;
   width: 100%;
 }
 
 .container.headcont {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.065) 0%, white 100%), 
-	    linear-gradient(to right, #bfe3cb 0%,#d5e5f7 49%,#edd4ff 100%);
-    max-width: 100%;
-    background-size: 400%;
-    padding: 0 10%;
-    animation: 10s gradientanim ease-in-out infinite;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.065) 0%, #f9f9f9 100%), linear-gradient(to right, #bfe3cb 0%, #d5e5f7 49%, #edd4ff 100%);
+  max-width: 100%;
+  background-size: 400%;
+  padding: 0 10%;
+  animation: 10s gradientanim ease-in-out infinite;
 }
 
-@media screen and (min-width: 1300px) { /*desktop*/
+@media screen and (min-width: 1300px) {
+  /*desktop*/
   .container {
     margin: 0 auto;
     padding: 0 0;
-    max-width:800px;
+    max-width: 800px;
+    font: 1.1875rem/1.5 Helvetica, Arial, sans-serif;
   }
 
   .container.headcont {
     padding: 0 250px;
   }
 }
-
 @keyframes gradientanim {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 code {
-  font-family: 'Bitstream Vera Sans Mono','Consolas', monospace;
+  font-family:'Bitstream Vera Sans Mono','Consolas', monospace;
   background: #f3f3f3;
+  border: .1px solid #00000030;
   border-radius: 5px;
   padding: 2px 5px;
   margin: 0 3px;
-  box-shadow: 0 0 0 1px #00000030;
+/*   box-shadow: 0 0 0 1px #00000030; */
 }
 
 .MathJax {
-  font-size:88%;
+  font-size: 88%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Fira Sans", $helveticaNeue;
-  color: $darkerGray;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-
-  @include mobile {
+}
+@media screen and (max-width: 640px) {
+  h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
@@ -101,10 +102,10 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 40px;
-  a {
-    color: inherit;
-  }
+  font-size: 38px;
+}
+h1 a {
+  color: inherit;
 }
 
 h2 {
@@ -117,27 +118,27 @@ h3 {
 
 h4 {
   font-size: 17px;
-  color: $gray;
+  color: #666;
 }
 
 p, li, ul {
   margin: 15px 0;
-  font-family: "Merriweather", $helvetica;
+  font-family: 'PT Serif', Helvetica, Arial, sans-serif;
 }
 
 span.metadate {
-	font-size: smaller;
-	font-weight:normal;
-	margin:10px;
+  font-size: smaller;
+  font-weight: normal;
+  margin: 10px;
 }
 
 a {
-  color: $blue;
+  color: #4183C4;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
+  cursor: pointer;
+}
+a:hover, a:active {
+  color: #4183C4;
 }
 
 ul, ol {
@@ -173,16 +174,14 @@ img {
   max-width: 100%;
 }
 
-// Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
 }
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #666;
 }
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
