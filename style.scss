@@ -182,6 +182,30 @@ img {
   font-style: italic;
   color: #666;
 }
+
+// Projects Cards
+.post.proj_card {
+    border: 1px solid #999;
+    padding: 25px 10px;
+    margin: 15px 0;
+    transition: .2s all ease-out;
+    border-radius: 3px;
+}
+
+.post.proj_card:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,.14);
+    background:white;
+}
+
+.title.posttitle {
+    margin: 0;
+}
+
+.entry.proj_description {
+    font-size: 0.88em;
+    font-family: sans-serif;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
