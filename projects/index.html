@@ -15,8 +15,16 @@ published: true
 			<span class="meta metadate">{{ post.date | date_to_string: "ordinal", "US"}}</span>
 		</h3>
 		
+
+		{% if post.github %}
+		<div class="entry github">
+			<a href="{{ post.github }}" title="View on GitHub">View associated GitHub repository</a>
+		</div>
+		{% endif %}
+
 		<div class="entry proj_description">
 			{{ post.description }}
+			{{ post.content | strip_html | strip_newlines | truncatewords: 25 }}
 		</div>
   	</div>
   {% endif %}

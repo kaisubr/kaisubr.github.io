@@ -6,11 +6,11 @@ layout: default
   <h1>{{ page.title }}</h1>
   
   <div>
-    <p>Tagged as: </p>
+    <!-- <p>Tagged as: </p>
 
-    {% for tag in page.tags %}
+    {% for tag in page.tags %} -->
     <a class="post" href="/tag/{{tag}}">#{{tag}}</a>
-    {% endfor %}
+    <!-- {% endfor %} -->
   </div>
   
 
@@ -19,7 +19,7 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Last updated {{ page.date | date: "%B %e, %Y" }}
   </div>
 <!-- 
   {% include disqus.html %} -->
