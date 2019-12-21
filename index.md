@@ -4,9 +4,9 @@ title: About
 permalink: /index.html
 ---
 
-I'm an undergraduate CS student with a strong interest in software engineering, computer vision, and applications of data science. 
+I'm a Computing Scholar and undergraduate CS student at UTD with a strong interest in software engineering, computer vision, and applications of data science. 
 
-I have applied these interests in some projects which have won awards, such as an augmented reality platform and an app that used image classification via a CNN. [Jump to my projects page](/projects/) to see what I've been working on!
+Some of my projects that applied these interests have been awarded, such as an augmented reality platform and an app that used image classification via a CNN. [Jump to my projects page](/projects/) to see what I've been working on!
 
 <!---
 ### More Information
