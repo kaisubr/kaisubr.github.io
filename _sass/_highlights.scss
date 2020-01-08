@@ -1,25 +1,30 @@
 
-.highlight {
-  background-color: #efefef;
-  padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
-  overflow: scroll;
+pre.highlight {
+    padding: 7px;
+    /* line-height: 1; */
 }
 
-// code {
-//   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-// }
+.highlight {
+  background-color: #efefef;
+  /* padding: 7px 7px 7px 10px; */
+  /* border: 1px solid #ddd; */
+  -moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.1); */
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  /* margin: 20px 0 20px 0; */
+  overflow: auto;
+  line-height: 1;
+  overflow-wrap: break-word;
+}
+
 code {
-  font-family: 'Bitstream Vera Sans Mono','Consolas', monospace;
-  background: #f3f3f3;
-  border-radius: 5px;
-  padding: 2px 5px;
-  margin: 0 3px;
-  box-shadow: 0 0 0 1px #00000030;
+  font-family: 'Cascadia Code', 'Bitstream Vera Sans Mono', 'Consolas', monospace;
+  background: #efefef;
+  font-size: 15px;
+  /* border-radius: 5px; */
+  /* padding: 2px 5px; */
+  /* margin: 0 3px; */
+  box-shadow: 0 0 0 1px #efefef;
 }
 
 .MathJax {
