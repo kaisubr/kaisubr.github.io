@@ -27,6 +27,18 @@ code {
   box-shadow: 0 0 0 1px #efefef;
 }
 
+code.language-plaintext.highlighter-rouge {
+    padding: 2px 3px;
+    box-shadow: 0 0 0 1px #cccccc;
+    border-radius: 5px;
+    transition:.2s ease-in-out all;
+}
+
+code.language-plaintext.highlighter-rouge:hover {
+    box-shadow: 0 0 5px 2px #cccccc;
+}
+
+
 .MathJax {
   font-size:88%;
 }
