@@ -3,7 +3,7 @@
 // These are for code blocks:
 // [1] outer div
 .highlight {
-  background: #efefef;
+  background: #efefef; // Change THIS if you want to change background color of the code block. Can depend on highlighting scheme (https://github.com/barryclark/jekyll-now/issues/461)
   line-height: 1;
   font-size: 15px;
   
