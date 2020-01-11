@@ -1,47 +1,4 @@
 
-pre.highlight {
-    padding: 7px;
-    /* line-height: 1; */
-}
-
-.highlight {
-  background-color: #efefef;
-  /* padding: 7px 7px 7px 10px; */
-  /* border: 1px solid #ddd; */
-  -moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
-  /* -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.1); */
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
-  /* margin: 20px 0 20px 0; */
-  overflow: auto;
-  line-height: 1;
-  overflow-wrap: break-word;
-}
-
-code {
-  font-family: 'Cascadia Code', 'Bitstream Vera Sans Mono', 'Consolas', monospace;
-  background: #efefef;
-  font-size: 15px;
-  /* border-radius: 5px; */
-  /* padding: 2px 5px; */
-  /* margin: 0 3px; */
-  box-shadow: 0 0 0 1px #efefef;
-}
-
-code.language-plaintext.highlighter-rouge {
-    padding: 2px 3px;
-    box-shadow: 0 0 0 1px #cccccc;
-    border-radius: 5px;
-    transition:.2s ease-in-out all;
-}
-
-code.language-plaintext.highlighter-rouge:hover {
-    box-shadow: 0 0 5px 2px #cccccc;
-}
-
-
-.MathJax {
-  font-size:88%;
-}
 
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
