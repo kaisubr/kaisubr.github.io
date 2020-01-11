@@ -3,6 +3,10 @@
 // These are for code blocks:
 // [1] outer div
 .highlight {
+  background: #efefef;
+  line-height: 1;
+  font-size: 15px;
+  
   /* padding: 7px 7px 7px 10px; */
   /* border: 1px solid #ddd; */
   -moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
@@ -10,9 +14,9 @@
   box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
   /* margin: 20px 0 20px 0; */
   overflow: auto;
-  line-height: 1;
   overflow-wrap: break-word;
 }
+
 // [2] inner pre
 pre.highlight {
     padding: 7px;
@@ -26,9 +30,9 @@ code {
 
 // this is for inline code things
 code.language-plaintext.highlighter-rouge {
+    background-color: #efefef;
     font-family: 'Cascadia Code', 'Bitstream Vera Sans Mono', 'Consolas', monospace;
     font-size: 15px;
-    background-color: #efefef;
     padding: 2px 3px;
     box-shadow: 0 0 0 1px #cccccc;
     border-radius: 5px;
