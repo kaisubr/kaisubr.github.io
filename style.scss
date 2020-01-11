@@ -207,17 +207,21 @@ img {
 
 // Projects Cards
 .post.proj_card {
-    border: 1px solid #999;
-    padding: 25px 10px;
-    margin: 15px 0;
-    transition: .2s all ease-out;
-    border-radius: 3px;
+  border: 1px solid #999;
+  padding: 15px 15px;
+  margin: 15px 0;
+  border-radius: 20px;
+  width: 100%;
+  transition: .15s all cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
 .post.proj_card:hover {
-    box-shadow: 0 5px 20px rgba(0,0,0,.14);
-    background:white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.28);
+  width: 104%;
+  margin:15px -2%;
+  background: white;
 }
+
 
 .title.posttitle {
     margin: 0;
