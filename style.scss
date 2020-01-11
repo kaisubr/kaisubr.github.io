@@ -93,39 +93,6 @@ table, td {
     background:  #efefef; 
 }
 
-pre.highlight {
-    padding: 7px;
-    /* line-height: 1; */
-}
-
-.highlight {
-  background-color: #efefef;
-  /* padding: 7px 7px 7px 10px; */
-  /* border: 1px solid #ddd; */
-  -moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
-  /* -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.1); */
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
-  /* margin: 20px 0 20px 0; */
-  overflow: auto;
-  line-height: 1;
-  overflow-wrap: break-word;
-}
-
-code {
-  font-family: 'Cascadia Code','Consolas', monospace;
-  background: #efefef;
-  font-size: 15px;
-  /* border-radius: 5px; */
-  /* padding: 2px 5px; */
-  /* margin: 0 3px; */
-  box-shadow: 0 0 0 1px #efefef;
-}
-
-
-.MathJax {
-  font-size: 88%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
