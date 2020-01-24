@@ -26,7 +26,7 @@ html {
 }
 
 body {
-//   background: #f9f9f9;
+  background: #f9f9f9;
   font: 1rem/1.7 'PT Serif', Helvetica, Arial, sans-serif;
   color: #000000;
 }
@@ -50,7 +50,7 @@ body {
   .container {
     margin: 0 auto;
     padding: 0 0;
-    max-width: 800px;
+    max-width: 900px;
     font: 1.1875rem/1.5 'PT Serif', Helvetica, Arial, sans-serif;
   }
 
@@ -113,6 +113,7 @@ h1, h2 {
 
 h1 {
   font-size: 38px;
+  margin: 0 0 15px;
 }
 h1 a {
   color: inherit;
