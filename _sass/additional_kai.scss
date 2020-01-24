@@ -5,6 +5,13 @@ article.post {
     background:white;
 }
 
+li > a, p > a {
+    color: #5555d4;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
 // custom code highlights
 
 // These are for code blocks:
@@ -42,12 +49,12 @@ code.language-plaintext.highlighter-rouge {
     font-size: 15px;
     padding: 2px 3px;
     box-shadow: 0 0 0 1px #cccccc;
-    border-radius: 5px;
+    border-radius: 3px;
     transition:.2s ease-in-out all;
 }
 
 code.language-plaintext.highlighter-rouge:hover {
-    box-shadow: 0 0 5px 2px #cccccc;
+//     box-shadow: 0 0 5px 2px #cccccc;
 }
 
 // MathJax things
